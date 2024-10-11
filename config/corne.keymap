@@ -72,11 +72,11 @@
             label = "ONENOTE";
         };
 
-        Onenote_macro: Onenot_macro {
+        Onenote_macro: Onenote_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp K &kp LC(K) &kp LC(V) &kp RET>;
-            label = "ONENOT_MACRO";
+            bindings = <&kp LC(K) &kp LC(V) &kp RET>;
+            label = "ONENOTE_MACRO";
         };
     };
 
