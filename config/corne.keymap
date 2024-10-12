@@ -75,7 +75,8 @@
         Onenote_macro: Onenote_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(K) &kp LC(V) &kp RET>;
+            bindings = <&kp LC(K)>, <&macro_press>, <&kp LC(V) &kp RET>;
+
             label = "ONENOTE_MACRO";
         };
     };
